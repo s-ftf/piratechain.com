@@ -1,6 +1,6 @@
 # Pirate Chain community website
 
-View the site at [https://s-ftf.github.io/pirate.black/](https://s-ftf.github.io/pirate.black/).
+View the site at [https://s-ftf.github.io/piratechain.com/](https://s-ftf.github.io/piratechain.com/).
 
 This is a static website built with Jekyll and hosted on GitHub Pages directly from its public repository. It needs no privately operated application server or database. Anyone can download the source and host a copy, on GitHub Pages or elsewhere.
 
