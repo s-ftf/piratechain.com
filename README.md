@@ -54,7 +54,7 @@ After changing `_config.yml`, restart Jekyll and check **Downloads** on the Wall
 <br/>
 
 ## Mining calculator
-The calculator in [assets/js/mining.js](assets/js/mining.js) reads current height and difficulty from the Pirate Chain explorer, falling back to the Dexstats explorer. It gets the ARRR/USD quote from CoinGecko's public price API. The estimate uses the current block reward and difficulty, then subtracts the entered pool fee and electricity cost. If the price API is unavailable, it still shows estimated ARRR rewards and electricity cost. The browser calls these APIs directly; no proxy or API key is needed.
+The calculator in [assets/js/mining.js](assets/js/mining.js) reads current height and difficulty from the Dexstats explorer, falling back to the Pirate Chain explorer. It gets the ARRR/USD quote from CoinGecko's public price API. The estimate uses the current block reward and difficulty, then subtracts the entered pool fee and electricity cost. If the price API is unavailable, it still shows estimated ARRR rewards and electricity cost. The browser calls these APIs directly; no proxy or API key is needed.
 
 <br/>
 
@@ -97,10 +97,10 @@ Update shared values in `_config.yml` rather than editing each page. These are t
 | `wallet_repositories` | GitHub release repositories and GitLab mirror paths used by the Wallets page. See **Wallet release links** above. |
 | `wallet_links` | Supplemental wallet downloads, the Stashi user guide, and its Google Play listing. |
 | `url` | Public site origin used for canonical links, social previews, schema, the sitemap, and the RSS feed. Currently `https://s-ftf.github.io`. |
-| `baseurl` | The prefix for internal links and assets. Keep `/pirate.black/` when serving from that project path; use `/` when serving from the domain root. |
+| `baseurl` | The prefix for internal links and assets. Keep `/piratechain.com/` when serving from the GitHub Pages project path; use `/` when serving from the domain root. |
 | `name`, `title`, `description`, `default_thumbnail` | Default site identity and social-sharing metadata. Every page currently uses `meta/pirate-chain-default-social-preview.webp` for Open Graph, Twitter, and structured data. |
 
-When this site moves from GitHub Pages to `piratechain.com`, set `url: "https://piratechain.com"` and `baseurl: "/"`, then rebuild. The canonical URLs and sitemap will update automatically. Keep the URL values pointed at the actual public home of this site; `pirate.black` currently redirects elsewhere.
+The current GitHub Pages deployment uses `url: "https://s-ftf.github.io"` and `baseurl: "/piratechain.com/"`. When this site is deployed at `piratechain.com`, set `url: "https://piratechain.com"` and `baseurl: "/"`, then rebuild. The canonical URLs and sitemap will update automatically. Keep these values pointed at the actual public home of this site.
 
 <br />
 

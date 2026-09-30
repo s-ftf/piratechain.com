@@ -27,8 +27,8 @@ function playVideo(element) {
 };
 
 const explorerUrls = [
-    'https://explorer.pirate.black/insight-api-komodo/status?q=getInfo',
-    'https://pirate.explorer.dexstats.info/insight-api-komodo/status?q=getInfo'
+    'https://pirate.explorer.dexstats.info/insight-api-komodo/status?q=getInfo',
+    'https://explorer.piratechain.com/insight-api-komodo/status?q=getInfo'
 ];
 const priceUrl = 'https://api.coingecko.com/api/v3/simple/price?ids=pirate-chain&vs_currencies=usd&include_last_updated_at=true';
 const usd = new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD' });
